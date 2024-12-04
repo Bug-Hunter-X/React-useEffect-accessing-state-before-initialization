@@ -1,0 +1,1 @@
+This repository demonstrates a common error in React's `useEffect` hook where a state variable is accessed before it has been initialized.  The initial render happens before the state is fully set up, leading to unexpected behavior. The solution shows how to correctly handle this situation using the optional second argument of `useEffect` or by checking for undefined values.
